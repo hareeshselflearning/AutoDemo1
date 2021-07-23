@@ -1,0 +1,722 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="Bartleby - Regression Test Suite" thread-count="4"
+	parallel="tests"> -->
+
+	<suite name="Bartleby Compass - Regression Suite">
+	
+	<test name="AAAA">
+	<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.AAAA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBWBTryUsToday">
+	<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBWBTryUsToday"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBJUTryUsToday">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBJUTryUsToday"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBWBTryBTBLearnCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBWBTryBTBLearnCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBJUTryBTBLearnCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBJUTryBTBLearnCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBWBTextBookSolCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBWBTextBookSolCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBJUTextBookSolCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBJUTextBookSolCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBWBExpertQACTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBWBExpertQACTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBJUExpertQACTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBJUExpertQACTA"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBJUStaticTxt">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BTBJUStaticTxt"></class>
+		</classes>
+	</test>
+	
+	<test name="BTBWBStaticTxt">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BTBWBStaticTxt"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="MoreEditionCTAValBusiness">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MoreEditionCTAValBusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="MoreEditionCTAValEngineering">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MoreEditionCTAValEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="MoreEditionCTAValMath">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MoreEditionCTAValMath"></class>
+		</classes>
+	</test>
+	
+	<test name="MoreEditionCTAValScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MoreEditionCTAValScience"></class>
+		</classes>
+	</test>
+	
+	<test name="MoreEditionCTAValSocialScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MoreEditionCTAValSocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="RelatedTxtBksComponentBusiness">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.RelatedTxtBksComponentBusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="RelatedTxtBksComponentEngineering">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.RelatedTxtBksComponentEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="RelatedTxtBksComponentMath">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.RelatedTxtBksComponentMath"></class>
+		</classes>
+	</test>
+	
+	<test name="RelatedTxtBksComponentScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.RelatedTxtBksComponentScience"></class>
+		</classes>
+	</test>
+	
+	<test name="RelatedTxtBksComponentSocialScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.RelatedTxtBksComponentSocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="SeeAllTxtBksFreeQusCTABusiness">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SeeAllTxtBksFreeQusCTABusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="SeeAllTxtBksFreeQusCTAEngineering">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SeeAllTxtBksFreeQusCTAEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="SeeAllTxtBksFreeQusCTAMath">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SeeAllTxtBksFreeQusCTAMath"></class>
+		</classes>
+	</test>
+	
+	<test name="SeeAllTxtBksFreeQusCTAScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SeeAllTxtBksFreeQusCTAScience"></class>
+		</classes>
+	</test>
+	
+	<test name="SeeAllTxtBksFreeQusCTASocialScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SeeAllTxtBksFreeQusCTASocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="ViewSampleSolPopularMath">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ViewSampleSolPopularMath"></class>
+		</classes>
+	</test> 
+	
+	<test name="ViewSampleSolPopularScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ViewSampleSolPopularScience"></class>
+		</classes>
+	</test>
+	
+	<test name="ViewSampleSolPopularSocialScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ViewSampleSolPopularSocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="ViewSampleSolPopularBusiness">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ViewSampleSolPopularBusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="ViewSampleSolPopularEngineering">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ViewSampleSolPopularEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="PopularTextBooksCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularTextBooksCTA"></class>
+		</classes>
+	</test>
+
+	<test name="MorePopularTextBook">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.MorePopularTextBook"></class>
+		</classes>
+	</test>
+	
+	<test name="LitGuideMarketingTitleText">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.LitGuideMarketingTitleText"></class>
+		</classes>
+	</test>
+	
+	<test name="BannerRegistrationCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BannerRegistrationCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="FindATutorStaticTxtCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.FindATutorStaticTxtCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="TutorGetStartedSignUp">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TutorGetStartedSignUp"></class>
+		</classes>
+	</test>
+
+	<test name="PopularSeeSampleSolBusiness">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolBusiness"></class>
+		</classes>
+	</test>
+
+	<test name="ExpertQAFromParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.ExpertQAFromParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="HomeWorkHelpComponent">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponent"></class>
+		</classes>
+	</test>
+
+	<test name="PopularComponentInParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularComponentInParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="BTBQALibraryParent">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BTBQALibraryParent"></class>
+		</classes>
+	</test>
+
+	<test name="AskAQusComponentParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.AskAQusComponentParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="PopularSeeSampleSolEngineering">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolEngineering"></class>
+		</classes>
+	</test>
+
+	<test name="Search With ISBN and Text">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchISBNText"></class>
+		</classes>
+	</test>
+
+	<test name="No Search Res">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchNoRes"></class>
+		</classes>
+	</test>
+
+	<test name="Search With Subject">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchSubject"></class>
+		</classes>
+	</test>
+
+	<test name="SearchPhrase">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchPhrase"></class>
+		</classes>
+	</test>
+
+	<test name="SearchTitle">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchTitle"></class>
+		</classes>
+	</test>
+
+	<test name="SearchSubClick">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchSubClick"></class>
+		</classes>
+	</test>
+
+	<test name="SearchSubSeeAllTxtBkClick">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.SearchSubSeeAllTxtBkClick"></class>
+		</classes>
+	</test>
+
+	<test name="SearchSubSeeFullSolClick">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.SearchSubSeeFullSolClick"></class>
+		</classes>
+	</test>
+
+	<test name="SearchAndFilter">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchAndFilter"></class>
+		</classes>
+	</test>
+	
+
+	<test name="TryBTBLearnCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TryBTBLearnCTA"></class>
+		</classes>
+	</test>
+
+	<test name="SearchSeeFullQA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchSeeFullQA"></class>
+		</classes>
+	</test>
+
+	<test name="SearchSeeFullSol">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchSeeFullSol"></class>
+		</classes>
+	</test>
+
+	<test name="TextBookSolCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TextBookSolCTA"></class>
+		</classes>
+	</test>
+
+	<test name="ExpertQACTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.ExpertQACTA"></class>
+		</classes>
+	</test>
+
+	<test name="HomeworkSolStaticVal">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeworkSolStaticVal"></class>
+		</classes>
+	</test>
+
+	<test name="TryITTodayCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TryITTodayCTA"></class>
+		</classes>
+	</test>
+
+	<test name="StudyOnTheGoCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.StudyOnTheGoCTA"></class>
+		</classes>
+	</test>
+
+	<test name="AppStoreCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.AppStoreCTA"></class>
+		</classes>
+	</test>
+	
+	<!-- <test name="PopularTextBooksCTA">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularTextBooksCTA"></class>
+		</classes>
+	</test>
+
+	<test name="MorePopularTextBook">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.MorePopularTextBook"></class>
+		</classes>
+	</test>
+	
+	<test name="LitGuideMarketingTitleText">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.LitGuideMarketingTitleText"></class>
+		</classes>
+	</test>
+	
+	<test name="BannerRegistrationCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BannerRegistrationCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="FindATutorStaticTxtCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.FindATutorStaticTxtCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="TutorGetStartedSignUp">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TutorGetStartedSignUp"></class>
+		</classes>
+	</test>
+
+	<test name="PopularSeeSampleSolBusiness">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolBusiness"></class>
+		</classes>
+	</test>
+
+	<test name="ExpertQAFromParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.ExpertQAFromParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="HomeWorkHelpComponent">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponent"></class>
+		</classes>
+	</test>
+
+	<test name="PopularComponentInParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularComponentInParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="BTBQALibraryParent">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BTBQALibraryParent"></class>
+		</classes>
+	</test>
+
+	<test name="AskAQusComponentParentSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.AskAQusComponentParentSub"></class>
+		</classes>
+	</test>
+
+	<test name="PopularSeeSampleSolEngineering">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolEngineering"></class>
+		</classes>
+	</test> -->
+	
+	
+	
+	
+	<test name="PopularSeeSampleSolMath">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolMath"></class>
+		</classes>
+	</test>
+	
+	<test name="PopularSeeSampleSolScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolScience"></class>
+		</classes>
+	</test>
+	
+	<test name="PopularSeeSampleSolSocialScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.PopularSeeSampleSolSocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="HomeWorkHelpComponentBusiness">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponentBusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="HomeWorkHelpComponentEngineering">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponentEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="HomeWorkHelpComponentMath">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponentMath"></class>
+		</classes>
+	</test>
+	
+	<test name="HomeWorkHelpComponentScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponentScience"></class>
+		</classes>
+	</test>
+	
+	<test name="HomeWorkHelpComponentSocialScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HomeWorkHelpComponentSocialScience"></class>
+		</classes>
+	</test>
+	
+	<test name="QALibComponentBusiness">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.QALibComponentBusiness"></class>
+		</classes>
+	</test>
+	
+	<test name="QALibComponentEngineering">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.QALibComponentEngineering"></class>
+		</classes>
+	</test>
+	
+	<test name="QALibComponentMath">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.QALibComponentMath"></class>
+		</classes>
+	</test>
+	
+	<test name="QALibComponentScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.QALibComponentScience"></class>
+		</classes>
+	</test>
+	
+	<test name="QALibComponentSocialScience">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.QALibComponentSocialScience"></class>
+		</classes>
+	</test>
+
+	<test name="GooglePlayCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.GooglePlayCTA"></class>
+		</classes>
+	</test>
+
+	<test name="MobilePageTxtVal">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MobilePageTxtVal"></class>
+		</classes>
+	</test>
+
+	<test name="TryBTBWriteCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TryBTBWriteCTA"></class>
+		</classes>
+	</test>
+
+	<test name="BTBWriteStaticTxtVal">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BTBWriteStaticTxtVal"></class>
+		</classes>
+	</test>
+
+	<test name="HighschoolbannerCTAVal">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.HighschoolbannerCTAVal"></class>
+		</classes>
+	</test>
+
+	<test name="BusinessParentChldSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.BusinessParentChldSub"></class>
+		</classes>
+	</test>
+
+	<test name="EngineeringParentChldSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.EngineeringParentChldSub"></class>
+		</classes>
+	</test>
+
+	<test name="SpanishParentChldSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.SpanishParentChldSub"></class>
+		</classes>
+	</test>
+
+	<test name="MathParentChldSub">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.MathParentChldSub"></class>
+		</classes>
+	</test>
+
+	<test name="ScienceParentChldSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.ScienceParentChldSub"></class>
+		</classes>
+	</test>
+
+	<test name="SocialScienceParentChldSub">
+		<classes>
+			<class
+				name="com.btb.hybrid.compassregsuite.SocialScienceParentChldSub"></class>
+		</classes>
+	</test>
+	
+
+	<test name="BTBQALibrary">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.BTBQALibrary"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="LitGuideHeroStaticVal">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.LitGuideHeroStaticVal"></class>
+		</classes>
+	</test>
+	
+	<test name="LitGuideTitleAuthorVal">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.LitGuideTitleAuthorVal"></class>
+		</classes>
+	</test>
+	
+	<test name="TutorProductTextCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TutorProductTextCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="TutorSubscribeSignUpCTA">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.TutorSubscribeSignUpCTA"></class>
+		</classes>
+	</test>
+	
+	<test name="PublicFacingQAAskQusUpload">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.PublicFacingQAAskQusUpload"></class>
+		</classes>
+	</test>
+	
+	<test name="SearchGotoSolOfTxtBkBusiness">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchGotoSolOfTxtBkBusiness"></class>
+		</classes>
+	</test> 
+	
+	<test name="SearchGotoSolOfTxtBkEngineering">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchGotoSolOfTxtBkEngineering"></class>
+		</classes>
+	</test> 
+	
+	<test name="SearchGotoSolOfTxtBkMath">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchGotoSolOfTxtBkMath"></class>
+		</classes>
+	</test> 
+	
+	<test name="SearchGotoSolOfTxtBkScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchGotoSolOfTxtBkScience"></class>
+		</classes>
+	</test> 
+	
+	<test name="SearchGotoSolOfTxtBkSocialScience">
+		<classes>
+			<class name="com.btb.hybrid.compassregsuite.SearchGotoSolOfTxtBkSocialScience"></class>
+		</classes>
+	</test>
+
+</suite>

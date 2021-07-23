@@ -1,0 +1,6 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Router-Suite">
+ <suite-files>
+   <suite-file path="./src/test/resources/router_suite.xml" />
+  </suite-files>
+</suite>
